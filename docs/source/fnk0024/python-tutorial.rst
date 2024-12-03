@@ -7,13 +7,13 @@ Python language tutorial
    :titlesonly:
    :caption: Preface
 
-   codes/preface/python_preface.rst
+   ../codes/preface/python_preface.rst
 
 .. toctree::
    :titlesonly: 
    :caption: Preparation
    
-   codes/preface/python_preparation.rst
+   ../codes/preface/python_preparation.rst
 
 
 .. toctree::
@@ -41,23 +41,6 @@ Python language tutorial
    codes/python-lang/74HC595 & 7-Segment Display.rst
    codes/python-lang/74HC595 & LED Matrix.rst
    codes/python-lang/LCD1602.rst
-   codes/python-lang/Hygrothermograph DHT11.rst
-   codes/python-lang/Matrix Keypad.rst
-   codes/python-lang/Infrared Motion Sensor.rst
    codes/python-lang/Ultrasonic Ranging.rst
-   codes/python-lang/Attitude Sensor MPU6050.rst
-   codes/python-lang/High-sensitivity microphone sensor
-   codes/python-lang/Touch Sensor.rst
-   codes/python-lang/U-shaped photoelectric sensor.rst
-   codes/python-lang/Hall sensor.rst
-   codes/python-lang/Infrared Obstacle Avoidance Sensor.rst
-   codes/python-lang/Rotary Encoder.rst
-   codes/python-lang/LEDpixel.rst
-   codes/python-lang/BMP180 Barometric Pressure Sensor.rst
-   codes/python-lang/RFID.rst
-   codes/python-lang/Speaker amplifier module PAM8403.rst
-   codes/python-lang/camera.rst
    codes/python-lang/Web IoT.rst
-   codes/python-lang/Soldering a Circuit Board.rst
-   codes/python-lang/Other Components.rst
-   codes/python-lang/WhatsNext.rst
+   codes/common/WhatsNext.rst
