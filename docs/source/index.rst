@@ -1,6 +1,6 @@
 
 ######################################################
-freenove documentation for raspberry pi starter kit
+Freenove Ultrasonic Starter Kit for Raspberry Pi
 ######################################################
 
 .. toctree::
