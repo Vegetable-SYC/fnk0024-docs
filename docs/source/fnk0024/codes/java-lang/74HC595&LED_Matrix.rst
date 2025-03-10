@@ -94,7 +94,7 @@ First, enter where the project is located:
 
 .. code-block:: console
 
-    $ cd ~/Freenove_Kit/Pi4j/Sketches/Sketch_17_LEDMatrix
+    $ cd ~/Freenove_Kit/Pi4j/Sketches/Sketch_16_LEDMatrix
     
 .. image:: ../_static/imgs/java_matrix.png
     :align: center
@@ -130,14 +130,14 @@ If the code fails to run, please check :ref:`Geany Configuration <Geany_Configur
 
 The following is program code:
 
-.. literalinclude:: ../../../freenove_Kit/Pi4j/Sketches/Sketch_17_LEDMatrix/LEDMatrix.java
+.. literalinclude:: ../../../freenove_Kit/Pi4j/Sketches/Sketch_16_LEDMatrix/LEDMatrix.java
     :linenos: 
     :language: java
     :dedent:
 
 Define the contents displayed on the LED matrix.
 
-.. literalinclude:: ../../../freenove_Kit/Pi4j/Sketches/Sketch_17_LEDMatrix/LEDMatrix.java
+.. literalinclude:: ../../../freenove_Kit/Pi4j/Sketches/Sketch_16_LEDMatrix/LEDMatrix.java
     :linenos: 
     :language: java
     :lines: 105-125
@@ -145,7 +145,7 @@ Define the contents displayed on the LED matrix.
 
 Use 2 nested for functions to make the LED dot matrix display a smiley face and loop it 500 times.
 
-.. literalinclude:: ../../../freenove_Kit/Pi4j/Sketches/Sketch_17_LEDMatrix/LEDMatrix.java
+.. literalinclude:: ../../../freenove_Kit/Pi4j/Sketches/Sketch_16_LEDMatrix/LEDMatrix.java
     :linenos: 
     :language: java
     :lines: 133-142
@@ -153,7 +153,7 @@ Use 2 nested for functions to make the LED dot matrix display a smiley face and 
 
 Display the array from character 0 and loop 10 times to ensure that it is visible to human eyes then move the array elements one by one to make the characters scroll.
 
-.. literalinclude:: ../../../freenove_Kit/Pi4j/Sketches/Sketch_17_LEDMatrix/LEDMatrix.java
+.. literalinclude:: ../../../freenove_Kit/Pi4j/Sketches/Sketch_16_LEDMatrix/LEDMatrix.java
     :linenos: 
     :language: java
     :lines: 143-154

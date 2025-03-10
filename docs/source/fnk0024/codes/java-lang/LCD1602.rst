@@ -86,7 +86,7 @@ First, enter where the project is located:
 
 .. code-block:: console
 
-    $ cd ~/Freenove_Kit/Pi4j/Sketches/Sketch_18_I2CLCD1602
+    $ cd ~/Freenove_Kit/Pi4j/Sketches/Sketch_17_I2CLCD1602
         
 .. image:: ../_static/imgs/java_lcd1602.png
     :align: center
@@ -122,14 +122,14 @@ If the code fails to run, please check :ref:`Geany Configuration <Geany_Configur
 
 The following is program code:
 
-.. literalinclude:: ../../../freenove_Kit/Pi4j/Sketches/Sketch_18_I2CLCD1602/I2CLCD1602.java
+.. literalinclude:: ../../../freenove_Kit/Pi4j/Sketches/Sketch_17_I2CLCD1602/I2CLCD1602.java
     :linenos: 
     :language: java
     :dedent:
 
 Constructor, assigns the I2C bus to bus, and calls the constructor function to initialize the I2C bus.
 
-.. literalinclude:: ../../../freenove_Kit/Pi4j/Sketches/Sketch_18_I2CLCD1602/I2CLCD1602.java
+.. literalinclude:: ../../../freenove_Kit/Pi4j/Sketches/Sketch_17_I2CLCD1602/I2CLCD1602.java
     :linenos: 
     :language: java
     :lines: 40-53
@@ -137,7 +137,7 @@ Constructor, assigns the I2C bus to bus, and calls the constructor function to i
 
 I2C constructor, initialize the I2C bus.
 
-.. literalinclude:: ../../../freenove_Kit/Pi4j/Sketches/Sketch_18_I2CLCD1602/I2CLCD1602.java
+.. literalinclude:: ../../../freenove_Kit/Pi4j/Sketches/Sketch_17_I2CLCD1602/I2CLCD1602.java
     :linenos: 
     :language: java
     :lines: 55-59
@@ -145,7 +145,7 @@ I2C constructor, initialize the I2C bus.
 
 I2C bus acquisition function. Calling the list() function can obtain the names of all I2C buses currently existing on the Raspberry Pi.
 
-.. literalinclude:: ../../../freenove_Kit/Pi4j/Sketches/Sketch_18_I2CLCD1602/I2CLCD1602.java
+.. literalinclude:: ../../../freenove_Kit/Pi4j/Sketches/Sketch_17_I2CLCD1602/I2CLCD1602.java
     :linenos: 
     :language: java
     :lines: 87-101
@@ -153,7 +153,7 @@ I2C bus acquisition function. Calling the list() function can obtain the names o
     
 Use the pi4j library to repackage the I2C functions. These functions refer to the classic usage of Arduino. This is to be compatible with the subsequent PCF8574 class and Freenove_LCD1602 class, making it easier to drive LCD1602.
 
-.. literalinclude:: ../../../freenove_Kit/Pi4j/Sketches/Sketch_18_I2CLCD1602/I2CLCD1602.java
+.. literalinclude:: ../../../freenove_Kit/Pi4j/Sketches/Sketch_17_I2CLCD1602/I2CLCD1602.java
     :linenos: 
     :language: java
     :lines: 61-85
@@ -174,7 +174,7 @@ The following are the two classes we wrote for LCD1602 in reference to Arduino. 
 
 Initialize PCF8574 and Freenove_LCD1602 classes, and assign the value to LCD.
 
-.. literalinclude:: ../../../freenove_Kit/Pi4j/Sketches/Sketch_18_I2CLCD1602/I2CLCD1602.java
+.. literalinclude:: ../../../freenove_Kit/Pi4j/Sketches/Sketch_17_I2CLCD1602/I2CLCD1602.java
     :linenos: 
     :language: java
     :lines: 376-378
@@ -182,7 +182,7 @@ Initialize PCF8574 and Freenove_LCD1602 classes, and assign the value to LCD.
 
 At the first lin of LCD1602, print the character “Hello World”.
 
-.. literalinclude:: ../../../freenove_Kit/Pi4j/Sketches/Sketch_18_I2CLCD1602/I2CLCD1602.java
+.. literalinclude:: ../../../freenove_Kit/Pi4j/Sketches/Sketch_17_I2CLCD1602/I2CLCD1602.java
     :linenos: 
     :language: java
     :lines: 379-380
@@ -190,7 +190,7 @@ At the first lin of LCD1602, print the character “Hello World”.
 
 Print the character “Count” and the counts number at the second line every one second.
 
-.. literalinclude:: ../../../freenove_Kit/Pi4j/Sketches/Sketch_18_I2CLCD1602/I2CLCD1602.java
+.. literalinclude:: ../../../freenove_Kit/Pi4j/Sketches/Sketch_17_I2CLCD1602/I2CLCD1602.java
     :linenos: 
     :language: java
     :lines: 382-389
@@ -200,7 +200,7 @@ In Java, an `InterruptedException` is thrown when a thread's waiting, sleeping (
 
 When 'InterruptedException' is capured, 'Thread.currentThread().interrupt()' is called keep the interrupt status, so that the thread can respond to the interruption request appropriately.
 
-.. literalinclude:: ../../../freenove_Kit/Pi4j/Sketches/Sketch_18_I2CLCD1602/I2CLCD1602.java
+.. literalinclude:: ../../../freenove_Kit/Pi4j/Sketches/Sketch_17_I2CLCD1602/I2CLCD1602.java
     :linenos: 
     :language: java
     :lines: 390-392

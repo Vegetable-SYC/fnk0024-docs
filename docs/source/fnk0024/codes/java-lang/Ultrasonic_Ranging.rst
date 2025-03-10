@@ -110,14 +110,14 @@ Sketch
 
 In this chapter, we will learn the usage of the ultrasonic sensor.
 
-Sketch_22_UltrasonicRanging
+Sketch_18_UltrasonicRanging
 ----------------------------------------------------------------
 
 First, enter where the project is located:
 
 .. code-block:: console
 
-    $ cd ~/Freenove_Kit/Pi4j/Sketches/Sketch_22_UltrasonicRanging
+    $ cd ~/Freenove_Kit/Pi4j/Sketches/Sketch_18_UltrasonicRanging
 
 .. image:: ../_static/imgs/java_ultrasonic.png
     :align: center
@@ -156,7 +156,7 @@ If the code fails to run, please check :ref:`Geany Configuration <Geany_Configur
 
 The following is program code:
 
-.. literalinclude:: ../../../freenove_Kit/Pi4j/Sketches/Sketch_22_UltrasonicRanging/UltrasonicRanging.java
+.. literalinclude:: ../../../freenove_Kit/Pi4j/Sketches/Sketch_18_UltrasonicRanging/UltrasonicRanging.java
     :linenos: 
     :language: java
     :dedent:
@@ -177,7 +177,7 @@ Initialize the Pi4J context and assign it to GPIO.pi4.
 
 Initialize the Ultrasonic class and associate it with GPIO14 and GPIO15.
 
-.. literalinclude:: ../../../freenove_Kit/Pi4j/Sketches/Sketch_22_UltrasonicRanging/UltrasonicRanging.java
+.. literalinclude:: ../../../freenove_Kit/Pi4j/Sketches/Sketch_18_UltrasonicRanging/UltrasonicRanging.java
     :linenos: 
     :language: java
     :lines: 178-181
@@ -185,7 +185,7 @@ Initialize the Ultrasonic class and associate it with GPIO14 and GPIO15.
 
 Obtain the ultrasonic distance data every 100 milliseconds and display them on the terminal interface.
 
-.. literalinclude:: ../../../freenove_Kit/Pi4j/Sketches/Sketch_22_UltrasonicRanging/UltrasonicRanging.java
+.. literalinclude:: ../../../freenove_Kit/Pi4j/Sketches/Sketch_18_UltrasonicRanging/UltrasonicRanging.java
     :linenos: 
     :language: java
     :lines: 183-191
